@@ -1,5 +1,5 @@
 import { Router, Request, Response, NextFunction } from 'express';
-import Controller from '@/utils/interfaces/controller.interfaces';
+import Controller from '@/utils/interfaces/controller.interface';
 import HttpException from '@/utils/exceptions/http.exceptions';
 import validationMiddleware from '@/middleware/validation.middleware';
 import validate from '@/resources/post/post.validation';
